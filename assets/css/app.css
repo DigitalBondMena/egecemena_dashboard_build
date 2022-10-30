@@ -19019,7 +19019,12 @@ html.dark body :before {
     --bs-border-opacity: 1;
     border-color: rgba(var(--bs-dark-3-rgb), var(--bs-border-opacity))
 }
-
+@media screen and (min-width:639.98px) and (max-width: 1024px) {
+    html{
+        overflow-x: hidden;
+        overflow-y: auto
+    }
+}
 html body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
