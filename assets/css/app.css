@@ -7210,7 +7210,7 @@ textarea.form-control-sm {
 }
 
 .form-check-input {
-    -webkit-print-color-adjust: exact;
+    /* -webkit-print-color-adjust: exact; */
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -7219,7 +7219,7 @@ textarea.form-control-sm {
     background-repeat: no-repeat;
     background-size: contain;
     border: 1px solid #e2e8f0;
-    color-adjust: exact;
+    /* color-adjust: exact; */
     height: 1.15em;
     margin-top: .1395em;
     vertical-align: top;
