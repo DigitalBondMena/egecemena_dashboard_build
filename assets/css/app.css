@@ -872,9 +872,9 @@
 }
 
 body {
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    background-color: var(--bs-body-bg);
+    /* -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+    background-color: transparent;
     color: var(--bs-body-color);
     font-family: var(--bs-body-font-family);
     font-size: var(--bs-body-font-size);
@@ -18992,10 +18992,10 @@ textarea {
     color: rgba(var(--bs-gray-300-rgb), var(--bs-text-opacity))
 }
 
-html {
+/* html {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-theme-1-rgb), var(--bs-bg-opacity))
-}
+} */
 
 @media (max-width:639.98px) {
     html {
@@ -19051,8 +19051,9 @@ html body {
 
     padding-bottom:0;
     padding-top: 1.2rem;
-    background-image: url('../images/background/Defult.jpg');
+    /* background-image: url('../images/background/Defult.jpg'); */
     background-size: cover;
+    background-position: center top;
 }
 
 .top-bar {
